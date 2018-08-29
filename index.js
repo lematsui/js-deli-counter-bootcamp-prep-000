@@ -15,7 +15,10 @@ function nowServing(katzDeliLine) {
 function currentLine(theLine) {
   var thePeople = [];
   if (theLine.length > 0) {
-    for (var i = 0; i 4)
+    for (var i = 0; i =< theLine.length; i++) {
+      
+      
+    }
   }
   
   else {
