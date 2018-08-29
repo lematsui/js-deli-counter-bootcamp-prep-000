@@ -14,6 +14,7 @@ function nowServing(katzDeliLine) {
 
 function currentLine(theLine) {
   var thePeople = [];
+  var theLastPerson = [];
   if (theLine.length > 0) {
     for (var i = 0; theLine.length > i + 1; i++) {
       thePeople = thePeople + (i + 1) + ". " + theLine[i] + ", ";
