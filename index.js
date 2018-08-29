@@ -20,7 +20,7 @@ function currentLine(theLine) {
     }
     
     var message = "The line is currently: " + thePeople;
-    return message.replace(',','')
+    return message.replace(',','');
     }
    else {
     return "The line is currently empty."
