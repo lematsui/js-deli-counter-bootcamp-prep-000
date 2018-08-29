@@ -16,13 +16,11 @@ function currentLine(theLine) {
   var thePeople = [];
   if (theLine.length > 0) {
     for (var i = 0; theLine.length >= i; i++) {
-      thePeople += (i + 1) + ". " + x[i] + ", ";
+      thePeople += (i + 1) + ". " + theLine[i] + ", ";
     }
-    return 
+    return "The line is currently: " + thePeople
     }
-  
-  
-  else {
+   else {
     return "The line is currently empty."
   }
 }
