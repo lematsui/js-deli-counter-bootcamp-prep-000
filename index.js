@@ -16,7 +16,7 @@ function currentLine(theLine) {
   var thePeople = [];
   if (theLine.length > 0) {
     for (var i = 0; theLine.length >= i; i++) {
-      thePeople += (i + 1) + ". " + theLine[i] + ", ";
+      thePeople = thePeople + (i + 1) + ". " + theLine[i] + ", ";
     }
     thePeople = 
     return "The line is currently: " + thePeople;
