@@ -18,9 +18,11 @@ function currentLine(theLine) {
     for (var i = 0; theLine.length > i + 1; i++) {
       thePeople = thePeople + (i + 1) + ". " + theLine[i] + ", ";
     }
+    for (var o = theLine.length; theLine.length = o; o++) {
+      thePeople = thePeople + (o + 1) + ". " + theLine[o];
+    }
     var message = "The line is currently: " + thePeople;
     return message;
-    
     }
    else {
     return "The line is currently empty."
