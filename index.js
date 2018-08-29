@@ -15,12 +15,12 @@ function nowServing(katzDeliLine) {
 function currentLine(theLine) {
   var thePeople = [];
   if (theLine.length > 0) {
-    for (var i = 0; i =< theLine.length; i++) {
+    for (var i = 0; theLine.length >= i; i++) {
       thePeople += (i + 1) + ". " + x[i] + ", ";
-      
-      
     }
-  }
+    return 
+    }
+  
   
   else {
     return "The line is currently empty."
