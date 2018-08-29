@@ -19,7 +19,7 @@ function currentLine(theLine) {
       thePeople = thePeople + (i + 1) + ". " + theLine[i] + ", ";
     }
     
-    var message = "The line is currently: " + thePeople;
+    var message = String("The line is currently: " + thePeople;)
     return message.replace(',','');
     }
    else {
