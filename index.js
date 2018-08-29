@@ -19,9 +19,9 @@ function currentLine(theLine) {
       thePeople = thePeople + (i + 1) + ". " + theLine[i] + ", ";
     }
     for (var o = theLine.length; theLine.length === o; o++) {
-      thePeople = thePeople + (o + 1) + ". " + theLine[o];
+      theLastPerson = theLastPerson + (o + 1) + ". " + theLine[o];
     }
-    var message = "The line is currently: " + thePeople;
+    var message = "The line is currently: " + thePeople + theLastPerson;
     return message;
     }
    else {
