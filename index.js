@@ -19,7 +19,8 @@ function currentLine(theLine) {
       thePeople = thePeople + (i + 1) + ". " + theLine[i] + ", ";
     }
     
-    return "The line is currently: " + thePeople.replace(',','');
+    var message = "The line is currently: " + thePeople;
+    return message.replace(',','')
     }
    else {
     return "The line is currently empty."
