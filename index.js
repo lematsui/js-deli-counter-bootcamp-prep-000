@@ -15,7 +15,7 @@ function nowServing(katzDeliLine) {
 function currentLine(theLine) {
   var thePeople = [];
   if (theLine.length > 0) {
-    for (var i = 0; theLine.length > i + 1; i++) {
+    for (var i = 0; theLine.length > i - 1; i++) {
       thePeople = thePeople + (i + 1) + ". " + theLine[i] + ", ";
     }
     var message = "The line is currently: " + thePeople;
