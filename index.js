@@ -18,7 +18,8 @@ function currentLine(theLine) {
     for (var i = 0; theLine.length >= i; i++) {
       thePeople += (i + 1) + ". " + theLine[i] + ", ";
     }
-    return "The line is currently: " + thePeople.slice(0, theLine.length - 2);
+    thePeople = 
+    return "The line is currently: " + thePeople;
     }
    else {
     return "The line is currently empty."
