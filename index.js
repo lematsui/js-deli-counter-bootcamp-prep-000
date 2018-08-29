@@ -15,10 +15,10 @@ function nowServing(katzDeliLine) {
 function currentLine(theLine) {
   var thePeople = [];
   if (theLine.length > 0) {
-    for (var i = 0; theLine.length >= i; i++) {
+    for (var i = 0; theLine.length > i; i++) {
       thePeople = thePeople + (i + 1) + ". " + theLine[i] + ", ";
     }
-    thePeople = thePeople ;
+    
     return "The line is currently: " + thePeople;
     }
    else {
