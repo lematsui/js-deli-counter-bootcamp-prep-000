@@ -16,6 +16,7 @@ function currentLine(theLine) {
   var thePeople = [];
   if (theLine.length > 0) {
     for (var i = 0; i =< theLine.length; i++) {
+      thePeople += i + ". " + x[i] + ", "
       
       
     }
